@@ -1,0 +1,21 @@
+.login-form {
+  &__input {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+
+  &__submit {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
